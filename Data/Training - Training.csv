@@ -1,0 +1,7 @@
+distorted_hand_movements,hand_movement_restrictions,One_leg_problems,learning_disability,leg_stiffness,leg_and_face_mildly_affected,usual_intelligence,hand_stiffness,floppy_leg,floppy_neck,unable_to_walk,issues_in_speaking,blurred_and_distorted_vision,jerky_hands,jerky_legs,face_distortion,uncontrolled_tongue_movements,uncontrolled_face_movements,drooling,difficulty_in_sitting,limited_walking,fast_heart_rate,unbalanced_posture,depth_insensitivity,difficulty_in_performing usual activities,prognosis,Treatmets
+1,1,1,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1,0,0,1,0,1,0,1,Spastic_hemiplegia,"physical therapy,Botulium toxin injections, surgery, splinting and casting"
+1,1,0,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1,0,0,1,0,1,0,1,Spastic_diplegia,"Physical and oocupational therapy, orthotics,surgery"
+1,1,1,1,1,1,0,0,0,1,0,0,1,0,1,1,1,1,0,0,1,0,0,0,1,Spastic_quadriplegia,same as above
+1,1,1,1,0,1,0,0,0,0,0,1,0,1,1,1,1,1,0,0,0,0,1,1,1,Dyskinetic,"physical therpay, leg braces/walker, surgery, medication for muscle pain and stiffness,"
+1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1,1,0,0,0,1,Ataxic,same as above
+1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,Mixed_types,

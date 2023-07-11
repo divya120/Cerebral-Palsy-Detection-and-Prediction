@@ -1,0 +1,9 @@
+argparse==1.4.0
+h5py==3.2.1
+imageio==2.9.0
+#numpy==1.20.3
+opencv-python
+pyyaml==5.4.1
+scikit-video==1.1.11
+torch==1.8.1
+torchvision==0.3.0

@@ -1,0 +1,37 @@
+work_dir: ./work_dir/recognition/kinetics_skeleton/FAI_GCN
+
+# feeder
+feeder: feeder.feeder.Feeder
+train_feeder_args:
+  random_choose: True
+  random_move: True
+  window_size: 300 
+  data_path: ./data/05/kinetics-skeleton/train_data.npy
+  label_path: ./data/05/kinetics-skeleton/train_label.pkl
+test_feeder_args:
+  data_path: ./data/05/kinetics-skeleton/val_data.npy
+  label_path: ./data/05/kinetics-skeleton/val_label.pkl
+
+# model
+model: net.fai_gcn.Model
+model_args:
+  in_channels: 3
+  num_class: 2
+  edge_importance_weighting: True
+  graph_args:
+    layout: 'openpose'
+    strategy: 'spatial'
+
+# training
+device: [0,1,2,3]
+batch_size: 1
+test_batch_size: 1
+
+#optim
+
+base_lr: 0.0001
+step: [100,200,300,400,500]
+num_epoch: 500
+
+
+
